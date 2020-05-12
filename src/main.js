@@ -7,7 +7,7 @@ import Projects from "./projects";
 // import Resume from "./Resume";
 import Contact from "./contact";
 
-import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io';
+import { IoLogoGithub, IoLogoLinkedin, IoLogoInstagram } from 'react-icons/io';
 import { GoMail } from 'react-icons/go';
 import { FiSun, FiMoon } from 'react-icons/fi';
 
@@ -48,6 +48,8 @@ class Main extends Component {
               <Nav.Link as={NavLink} to="/projects" style={this.state.darkMode ? {color: 'white'}: {color: 'black'}}>Projects</Nav.Link>
               {/*<Nav.Link as={NavLink} to="/resume">Resume</Nav.Link>*/}
               <Nav.Link as={NavLink} to="/contact" style={this.state.darkMode ? {color: 'white'}: {color: 'black'}}>Contact Me</Nav.Link>
+              <a href="https://github.com/gaurangbharti1" style={this.state.darkMode ? {color: 'white'}: {color: 'black'}} target="_blank" rel="noopener noreferrer">
+            </a>
               <Nav.Link onClick={this.toggleDark.bind(this)}>
                 {this.state.darkMode ? 
                 <FiMoon style={{marginBottom: 3, color: 'white'}} size="1.4em" /> :
@@ -56,15 +58,16 @@ class Main extends Component {
               </Nav.Link>
             </Nav>
 
-            <a href="mailto: gaurangbharti@gmail.com" style={this.state.darkMode ? {color: 'white'}: {color: 'black'}} target="_blank" rel="noopener noreferrer">
-              <GoMail style={{marginRight: 15, color: ''}} size="2em" />
-              </a>
+            <a href="https://www.instagram.com/gaurang.bharti" style={this.state.darkMode ? {color: 'white'}: {color: 'black'}} target="_blank" rel="noopener noreferrer">
+              <IoLogoInstagram style={{marginRight: 15}} size="1.7em" />
+            </a>
             <a href="https://github.com/gaurangbharti1" style={this.state.darkMode ? {color: 'white'}: {color: 'black'}} target="_blank" rel="noopener noreferrer">
               <IoLogoGithub style={{marginRight: 15}} size="1.7em" />
             </a>
             <a href="https://www.linkedin.com/in/gaurang-bharti-269441181/" style={this.state.darkMode ? {color: 'white'}: {color: 'black'}} target="_blank" rel="noopener noreferrer">
               <IoLogoLinkedin size="2em" />
             </a>
+            
           </Navbar.Collapse>
         </Navbar>
         <div className="content" style={this.state.darkMode ? {backgroundColor: '#212529'} : {backgroundColor: 'white'}}>
