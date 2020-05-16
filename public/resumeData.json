@@ -1,0 +1,175 @@
+{
+  "main": {
+    "name":"Gaurang Bharti",
+    "occupation":"Student",
+    "description":"A young programmer who's learning everyday",
+    "image":"profile2.png",
+    "bio":"I'm an 18 year old CS Student from India; Currently studying in the University of British Columbia. I have only about 2-3 years of programming experience, but I try to get better daily.",
+    "contactmessage":"Reach me here!",
+    "email": "gaurangbharti@gmail.com",
+    "phone": "N/A",
+    "address":{
+      "street":"(Your Street)",
+      "city":"Bangalore",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "resumedownload":"https://drive.google.com/file/d/1f97KuCQw-TSq8bT6D1xcrgyj2riwiV5h/view?usp=sharing",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/gaurang.bharti/",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/gaurang_bharti",
+        "className":"fa fa-twitter"
+      },
+     
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/gaurang-bharti-269441181/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/gaurang.bharti/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/gaurangbharti1",
+        "className":"fa fa-github"
+      }
+      
+    ]
+  },
+  "resume":{
+    "skillmessage":"My Education and internship experience",
+    "education":[
+      {
+        "school":"University of British Columbia",
+        "degree":"Bachelors of Science (Computer Science)",
+        "graduated":"2024",
+        "description":""
+      },
+      {
+        "school":"Oakridge International School",
+        "degree":"IB Diploma Program",
+        "graduated":"2020",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"Mozilla",
+        "title":"Backend Developer",
+        "years":"April 2020 - Present",
+        "description":"Working on a Twitter bot that cites tweets if it is tagged in a reply to that tweet. @whosaidthis_bot"
+      },
+      {
+        "company":"Oak Codefest",
+        "title":"Founder and Core team member",
+        "years":"August 2017 to Jan 2020",
+        "description":"Founded and lead the largest overnight school hackathon in Bangalore for 3 consecutive years."
+      },
+      {
+        "company":"Spoonfed Delivery Services",
+        "title":"Software engineer intern",
+        "years":"May 2019 - June 2019",
+        "description":"Learned more about Javascript, Python, and how an industry-level idea is made into a reality."
+      },
+      {
+        "company":"Cisco",
+        "title":"Lead Developer",
+        "years":"June 2018 - Jan 2019",
+        "description":"Lead a team of new developers in building a QR code based attendance system for my school."
+      },
+      {
+        "company":"VISA",
+        "title":"Software engineer intern",
+        "years":"Feb 2018 - July 2018",
+        "description":"Worked with a team of software programmers to implement a new method of payment involving NFC; a wireless ATM transaction system."
+      },
+      {
+        "company":"Honeywell",
+        "title":"Engineering itern",
+        "years":"June 2017 - Jan 2018",
+        "description":"Worked with Honeywell on building a prototype of an Autonomous Transportation Vehicle while in 9th grade."
+      }
+     
+    ],
+    "skills":[
+      {
+        "name":"Python",
+        "level":"75%"
+      },
+      {
+        "name":"Arduino",
+        "level":"60%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"Javascript",
+        "level":"50%"
+      },
+      {
+        "name":"Unity 3D",
+        "level":"70%"
+      },
+      {
+        "name":"IOT",
+        "level":"70%"
+      },
+      {
+        "name":"Arduino C",
+        "level":"60%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Search m8",
+        "category":"Tool to help scrape the internet and summarize the information",
+        "image":"search-m8.jpg",
+        "url":"https://github.com/gaurangbharti1/search-m8"
+      },
+      {
+        "title":"Cisco Internship",
+        "category":"NFC Based ATM system",
+        "image":"nfc.jpg",
+        "url":"https://github.com/gaurangbharti1/cisco-internship"
+      },
+      {
+        "title":"Autonomous Vehicle in GTA 5",
+        "category":"Algorithm for an autonomous vehilce in GTA 5 for IB ExtendedEssay",
+        "image":"gta5.png",
+        "url":"https://github.com/gaurangbharti1/extended_essay"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website",
+        "image":"website.png",
+        "url":"https://github.com/gaurangbharti1/website"
+      }
+      
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
